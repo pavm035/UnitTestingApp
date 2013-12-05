@@ -395,6 +395,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UnitTestingApp/UnitTestingApp-Prefix.pch";
 				INFOPLIST_FILE = "UnitTestingApp/UnitTestingApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -408,6 +409,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UnitTestingApp/UnitTestingApp-Prefix.pch";
 				INFOPLIST_FILE = "UnitTestingApp/UnitTestingApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -474,6 +476,7 @@
 				93D9FC43185081A600D80BED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		93D9FC44185081A600D80BED /* Build configuration list for PBXNativeTarget "UnitTestingAppTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +485,7 @@
 				93D9FC46185081A600D80BED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
