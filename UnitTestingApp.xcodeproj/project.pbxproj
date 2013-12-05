@@ -261,7 +261,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "echo \"hello pavan you succeeded\"";
+			shellScript = "echo \"hello pavan you succeeded\"\necho \"Source=$SRCROOT\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
