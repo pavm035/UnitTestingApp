@@ -28,7 +28,7 @@
 
 - (void)testExample
 {
-    NSLog(@"Hello");
+    XCTAssertEqual(@"Pavi", @"Kum", @"Boss!!! It's equality failed");
 }
 
 @end
