@@ -261,7 +261,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "echo \"hello pavan you succeeded\"\necho \"Source=$SRCROOT\"\n";
+			shellScript = "echo \"hello pavan you succeeded\"\necho \"Source=$SRCROOT\"\n\nexport BRAND=RIM\n\nAPPSRCDIR=$SRCROOT\nEXEBUILDDIR=$CONFIGURATION_BUILD_DIR/$EXECUTABLE_FOLDER_PATH\n\nIMAGES=\"`ls -1 $APPSRCDIR/$BRAND/*.png`\"\n#echo $IMAGES\n\nfor file in $APPSRCDIR/$BRAND/*.png\ndo\necho $file\ncp \"$file\" $EXEBUILDDIR                              \ndone\n\n                              \n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
